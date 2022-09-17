@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@297;400&family=Mouse+Memoirs&family=Roboto:wght@300&display=swap');
+* {
+  
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+body{
+
+font-family: 'Roboto', sans-serif;
+}
+
+.header{
+background-color: #1F2937;
+height: 500px;
+min-height: 400px;
+padding:20px;
+}
+
+.container{
+display: flex;
+justify-content: space-between;
+max-width: 1100px;
+margin: 0 auto;
+padding: 0 30px;
+}
+ 
+.container, .logo{
+    align-items: center;
+}
+
+.logo{
+font-size: 24px;
+color: #F9FAF8;
+font-weight:bold;
+
+}
+
+header, ul {
+    display: flex;
+}
+.header h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#f9faf8;
+    margin-bottom: 15px;
+}
+
+.header p {
+    font-size: 18px;
+    color: #E5e7eb;
+}
+ul{
+    list-style-type: none;
+    gap:24px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+img{
+    max-width: 500px;
+  margin-top: 5%;
+}
+.container .box p{
+    text-align: justify;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+
+button{
+    background-color: #3882f6;
+    border: none;
+    padding: 10px 29px;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+.boxes .container {
+  display: flex;
+  justify-content: space-between;
+}
+.boxes h1{
+    margin-top: 50px;
+}
+.box {
+  flex: 1;
+  border-radius: 10px;
+  margin: 20px 15px;
+  padding: 30px 40px;
+  text-align: center;
+}
+
+.box img {
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+}
+.box p{
+    font-style: italic;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    height: 200px;
+    padding: 150px;
+}
+.quote p{
+    margin-top: 15px;
+    font-size: 36px;
+    font-style: italic;
+    color:#1f2937;
+}
+.quote h2{
+    text-align: right;
+    padding: 0 70px;
+}
+.action{
+    padding: 70px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contain{
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    gap: 50px;
+    padding: 40px 90px;
+    line-height: 1.5;
+    border-radius: 10px;
+    width: 100vh;
+}
+.signup button{
+    border: 1px solid #E5e7eb;
+}
+
+.contain .signup{
+    margin: 15px;
+}
+
+footer{
+    background-color: #1F2937;
+    color:#f9faf8;
+    padding: 15px;
+    text-align: center;
+}
